@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+html, body {
+  background: #000;
+  padding: 2em; margin: 0;
+  color: #fff;
+  font-family: 'Roboto Mono', 'Cascadia Code', 'Consolas',
+                'Courier New', Courier, monospace;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0em 0em 0.5em 0em;
+  text-shadow: 0px 0px 32px rgba(255, 255, 255, 0.8);
+}
+li {
+  text-shadow: 0px 0px 32px rgba(255, 255, 255, 0.8);
+}
+img {
+  border: #fff solid 1px;
+  box-shadow: 0px 0px 16px 0px rgba(255, 255, 255, 0.4);
+  transition: 0.5s;
+}
+img:hover {
+  scale: 110%;
+  transition: 1s;
+}
+.project {
+  border-radius: 1em;
+  margin-top: 1em;
+  background: #fff2;
+  padding: 1em;
+  transition: 0.5s;
+}
+.project:hover {
+  scale: 105%;
+  cursor: pointer;
+  transition: 0.5s;
+}
+a {
+  text-decoration: none;
+  color: #449eff;
+}
